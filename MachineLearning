@@ -27,3 +27,51 @@ Validation Data
 Used to determine what model hyperparameters to adjust
 Test Data
 Used to get some final performance metric
+
+
+
+Evaluating performance for Classification
+- accuracy, recall, precision and F1-score
+
+- accuracy is useful when target classes are balances . i.e: equal number od datasets for cat and dog
+- not a good choice if unbalanced (amount) class
+
+recall 
+- ability of a model to find all the relevant cases within dataset
+
+precision:
+- ability of a classification model to identify only relevant data points
+
+f1-score
+- relaionship betwen recall and precision
+
+
+Evaluating regression model metric:
+
+- MAE,MSE,RMSE
+
+- MAE wont punish large errors, so use MSE, then RMSE ( it has same matric as MAE)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
