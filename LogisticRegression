@@ -1,0 +1,8 @@
+Logistis regression
+- for classification problem
+
+- it is not good to use linear regression because it wont lead to a good fit
+
+- using Sigmoid (taking between 0 to 1)
+
+- 
