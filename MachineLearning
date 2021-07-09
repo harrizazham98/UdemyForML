@@ -1,0 +1,29 @@
+- refer to https://docs.google.com/presentation/d/1WurfW8OWRqjiSmzmwOW71iN6CEShkbfOnyETqTvf6BE/edit#slide=id.g5c6d0d8677_0_93 
+
+- The network receives a set of inputs along with the corresponding correct outputs, and the algorithm learns by comparing its actual output with correct outputs to find errors. 
+It then modifies the model accordingly. 
+
+- commonly used in where historical data predicts future events
+
+steps:
+
+- data acquisition
+- data cleaning
+- split into train and test
+- use training data to be fed into training model
+- model testing
+- adjust model parameters
+- model deployment
+
+
+- suggestion to train, validation, test data
+
+
+
+- To fix this issue, data is often split into 3 sets
+Training Data
+Used to train model parameters
+Validation Data
+Used to determine what model hyperparameters to adjust
+Test Data
+Used to get some final performance metric
